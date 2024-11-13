@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.MCD{
+    border: 1px solid rgb(21, 255, 0);
+    position: relative;
+}
+
+
+
+/**>>> FIRST PAGE <<<**/
+.MCD_FP{
+    border: none;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    display: block;
+}
+.MCD_FP_LG{
+    border: 0px solid transparent;
+    outline: 1px solid rgba(0, 0, 0, 0.144);
+    background-color: transparent;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 50%;
+
+    animation-name: LG_MOVE;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+
+}
+.MCD_FP_LG_Img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes LG_MOVE{
+    50%{
+        border: 8px solid transparent;
+    }
+    100%{
+        border: 8px solid transparent;
+    }
+    
+}
+
+
+
+
+
+
+
+/**>>> CREATE/LOGIN PAGE <<<**/
+.CALA_page_B{
+    background-color: rgba(0, 0, 0, 0.671);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow-y: scroll;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+
+    display:block;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.CALA_page{
+    background-color: rgb(240, 240, 240);
+    border: none;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 20px;
+
+
+}
+
+.CALA_page_LGD{
+    border:none;
+    max-width: 240px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    font-size: 16px;
+    margin: auto;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+}
+.CALA_page_N{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    overflow: hidden;
+
+    
+}
+.CALA_page_LG{
+    border: none;
+    width: 60px;/*40px*/
+    height: 60px;
+    position: relative;
+    margin-right: 10px;
+    border-radius: 50%;
+    
+
+
+    
+}
+.CALA_page_LG_I{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+
+}
+
+.CALA_page_I{
+    border: 1px solid rgba(0, 0, 0, 0.829);
+    max-width: 250px;
+    height: 30px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    border-radius: 4px;
+}
+.IT{
+    position: absolute;
+    left: 0px;
+    top: -22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+.IP{
+    background-color: rgb(233, 233, 233);
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.IPC{
+    background-color: rgb(233, 233, 233);
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.IP:focus,.IPC:focus{
+    outline: 2px solid  green;
+}
+.ExamCode_p{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 4px;
+    top: 4px;
+    color: red;
+    font-weight: 600;
+    font-size: 14px;
+}
+.CALA_page_Button{
+    background-color:  green;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+}
+
+.CALA_page_Button:active{
+    background-color:  rgb(0, 179, 0);
+}
+
+
+.CALA_page_confirm{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.808);
+    text-transform: capitalize;
+}
+.confirm_N{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.regNumber{
+    background-color: rgba(0, 0, 0, 0.062);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:red;
+    width: 250px;
+    text-transform: uppercase;
+    padding: 4px;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 20px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+.BC_BD{
+    border: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.B_B,.C_B{
+    width: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 6px;
+}
+.C_B{
+    background-color: red;
+}
+.Start_B{
+    width: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 40px;
+    display: none;
+}
+

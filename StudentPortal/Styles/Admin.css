@@ -1,0 +1,734 @@
+.MCD_A{
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    border: 1px solid red;
+    z-index: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow-y: scroll;
+    display: block;
+}
+
+/*logout_B*/
+.logout_B{
+    background-color: rgb(214, 0, 0);
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-left: 8px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 4px black;
+}
+
+.ADD_Q_B,.VIEW_Q_B,.VIEW_R_B,.Edith_B{
+    background-color: red;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.705);
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+.ADD_Q_B{
+    background-color: rgb(0, 0, 70);
+    margin-top: 50px;
+}
+.VIEW_Q_B{
+    background-color:coral;
+}
+.VIEW_R_B{
+    background-color: rgb(0, 155, 155);
+}
+.Edith_B{
+    background-color: brown;
+}
+.ADD_Q_D,.VIEW_Q_D,.VIEW_R_D,.Edith_D{
+    border: 4px solid black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    overflow-y: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+.ADD_Q_D{
+    background-color: rgb(255, 255, 255);
+    display: none;
+
+}
+
+
+.ADD_Q_D_T{
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+.ADD_back_B{
+    background-color: red;
+    border: 1px solid red;
+    width: 30px;
+    height: 30px;
+
+    background-image: url(''); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ADD_ExamNo{
+    background-color: rgba(0, 0, 0, 0.055);
+    border: none;
+    width: 110px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6px;
+    text-align: center;
+    color: green;
+    font-weight: 700;
+    border-radius: 4px;
+}
+.Opt_OB_D{
+    background-color:brown;
+    border: none;
+    width: 150px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-weight: 700;
+    position: relative;
+    position: relative;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.623);
+}
+.AD_I{
+    background-color: rgba(0, 0, 0, 0.39);
+    border: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 4px;
+}
+.Opt_OB_C{
+    background-color: white;
+    border:1px solid rgba(0, 0, 0, 0.315);
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    font-weight: normal;
+    bottom: -50px;
+    display: none;
+    left: 0px;
+    z-index: 2;
+}
+.Opt_O{
+    padding: 2px;
+    padding-left: 4px;
+    
+}
+.Opt_B{
+    border-top: 1px solid rgba(0, 0, 0, 0.315);
+    padding: 2px;
+    padding-left: 4px;
+}
+.ADD_Q_D_Q,.ADD_Q_D_Q_I,.ADD_Q_D_Q_II,.ADD_Q_D_Q_III,.ADD_Q_D_Q_IV{
+    border: 1px solid rgba(0, 0, 0, 0.425);
+    outline: 1px solid transparent;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 8px;
+    position: relative;
+    border-radius: 4px;
+    
+}
+.placeholder_Q{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 6px;
+    left: 5px;
+}
+.ADD_Q_D_QI,.ADD_Q_D_QI_I,.ADD_Q_D_QI_II,.ADD_Q_D_QI_III,.ADD_Q_D_QI_IV{
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.ADD_Q_D_QI::placeholder,.ADD_Q_D_QI_I::placeholder,.ADD_Q_D_QI_II::placeholder,.ADD_Q_D_QI_III::placeholder,.ADD_Q_D_QI_IV::placeholder{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+.ADD_Q_D_QI::placeholder{
+    font-weight: 700;
+}
+.ADD_Q_D_QI_I::placeholder{
+    color: green;
+    
+}
+.ADD_Q_D_QI_II::placeholder,.ADD_Q_D_QI_III::placeholder,.ADD_Q_D_QI_IV::placeholder{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+.ADMIN_MCD_UB_B{
+    border:1px solid red;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.ADMIN_P_B,.ADMIN_N_B,.ADMIN_S_B{
+    background-color: rgb(255, 115, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.ADMIN_N_B{
+    background-color: green;
+}
+.ADMIN_S_B{
+    background-color: red;
+}
+
+
+.ADMIN_MCD_UB_AQ{
+    background-color: rgba(0, 0, 0, 0.089);
+    border: none;
+    width: 280px;
+   
+    margin: auto;
+    margin-top: 10px;
+    display: grid;
+    padding: 3px;
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column: 10px;
+    grid-row: 10px;
+    border-radius: 10px;
+}
+.ADMIN_AQ{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+    padding: 4px;
+    text-align: center;
+    margin: 0px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px black;
+}
+
+
+
+.ADMIN_C_submit{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+.VIEW_Q_D{
+    background-color:white;
+    display: none;
+}
+.TQFS_DT{
+    background-color: green;
+    border: 1px solid red;
+    width: 100%;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: white;
+
+}
+
+.TQFS_DB{
+    background-color: rgba(0, 0, 0, 0.062);
+    border: 1px solid red;
+    width: 100%;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.TQFS_UB_T{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.VIEW_Q_D_BACK{
+    background-color: rgb(122, 0, 0);
+    border: 1px solid red;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: green;
+    text-align: center;
+    padding: 4px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+.VIEW_R_D{
+    background-color:white;
+    display: none;
+}
+
+.VIEW_R_DT{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 255, 0);
+    width: 480px;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 3fr 1.5fr 3fr;
+    font-size: 9px;
+    color: rgb(0, 0, 0);
+}
+.DT_SN,.DT_SF,.DT_RN,.DT_S,.DT_VSW{
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 1px solid #000000;
+    text-align: center;
+    
+    text-transform: uppercase;
+    padding: 4px;
+
+}
+.DT_SN{
+    border: none;
+}
+.VIEW_R_DB{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    text-align: center;
+
+
+    font-size: 8px;
+    width: 480px;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 3fr 1.5fr 3fr;
+}
+
+.DB_SN,.DB_SF,.DB_RN,.DB_S,.DB_VSW{
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 1px solid rgba(0, 0, 0, 0.288);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+    
+    text-align: center;
+    padding: 4px;
+
+    text-transform: uppercase;
+
+}
+.DB_SN{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+}
+.DB_SF{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.DB_VSW{
+    background-color: red;
+}
+
+
+    
+.ADMIN_finish,.ADMIN_VR_BACK{
+    background-color: rgb(122, 0, 0);
+    border: 1px solid red;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: green;
+    text-align: center;
+    padding: 4px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px black;
+}
+.ADMIN_VR_BACK{
+    width: 50px;
+    height: 20px;
+    padding: 0px;
+    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************************
+##############################################################
+##############################################################
+##############################################################
+##############################################################
+##############################################################
+*/
+.Edith_D{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**>>> ExamNo_DC PAGE <<<**/
+.ExamNo_DC{
+    background-color: rgba(0, 0, 0, 0.671);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow-y: scroll;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+
+    display:none;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.CALA_page_N{
+    text-transform: none;
+    font-size: 16px;
+    word-break: normal;
+}
+.ExamNo_C{
+    background-color: rgb(240, 240, 240);
+    border: none;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+.view_Button{
+    background-color:  green;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+}
+
+
+
+
